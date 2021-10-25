@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 20px;
+	background-color: #343a40;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.bars {
+	margin: auto;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	width: 1000px;
+}
+
+.bar {
+	background-color: yellow;
+}
+
+.current-selected {
+	background-color: red;
+}
